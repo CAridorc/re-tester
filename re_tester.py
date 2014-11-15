@@ -1,4 +1,8 @@
-from tkinter import *
+try:
+    from tkinter import *
+except ImportError:
+    from Tkinter import *
+
 import re
 
 root = Tk()
